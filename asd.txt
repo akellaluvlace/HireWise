@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en" class="sl-theme-dark">
+
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="/favicon.ico"/>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+<!-- <link rel="stylesheet" href="/app/assets/css/shoelace.css"> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css"/>
+
+<link rel="stylesheet" href="/app/assets/css/styles.css">
+<link rel="stylesheet" href="/app/assets/css/home.css">	<title>HireWise</title>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</head>
+
+<body>
+	<div id="loader">
+	<ul>
+		<li>
+			<div id="loader-ani"></div>
+		</li>
+		<li>
+			<div id="loader-msg"></div>
+		</li>
+		<li>
+			<div id="loader-progress">0%</div>
+		</li>
+	</ul>
+</div>
+<div id="blocker"></div>
+<div id="error-msg"></div>
+	<header class="out-of-view">
+	<ul class="nav">
+		<li>
+			<a href="/"><script data-pagespeed-no-defer>//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://hirewise.ie/','82dtZm2p5Q',true,false,'MJduOGxLMUw');
+//]]></script><img src="/app/assets/imgs/hirewise_logo_white.webp" alt="HireWise Logo" data-pagespeed-url-hash="1458785019" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+		</li>
+		<li></li>
+		<li>
+			<ul class="menu">
+				<li class="menu-item "><a href="/about-us">About Us</a></li>
+				<li class="menu-item "><a href="/our-services">Our Services</a></li>
+				<li class="menu-item "><a href="/testimonies">Testimonies</a></li>
+				<li class="menu-item "><a href="/jobs">Jobs</a></li>
+			</ul>
+			<ul class="nav-mobile">
+				<li><button id="nav-button" aria-label="Mobile Nav Button" title="Menu"><sl-icon name="list"></sl-icon></button></li>
+			</ul>
+		</li>
+	</ul>
+</header>
+<div class="menu-mobile">
+	<ul>
+		<li class="menu-item"><a href="/">Home</a></li>
+		<li class="menu-item"><a href="/about-us">About Us</a></li>
+		<li class="menu-item"><a href="/our-services">Our Services</a></li>
+		<li class="menu-item"><a href="/testimonies">Testimonies</a></li>
+		<li class="menu-item"><a href="/jobs">Jobs</a></li>
+	</ul>
+</div>	<div class="container">
+
+		<div class="content" id="content">
+			<div class="hero-text">
+				Helping you hire better
+				and retain your best
+
+			</div>
+		</div>
+		<div class="section-intro">
+			<h1>Your strategic recruitment partner</h1>
+			<p>We have a passion for hiring the right people the right way. Every organisation is different with a variety of nuances to navigate. We offer three recruitment models; Recruitment as a Service, Contingent Recruitment and Exclusive Recruitment</p>
+
+		</div>
+		<div class="section-video">
+			<h2>Creating a healthy hiring culture</h2>
+			<video autoplay muted loop>
+				<source src="/app/assets/video/video.mp4" type="video/mp4">
+				<!-- <source src="video.webm" type="video/webm"> -->
+				Your browser does not support the video tag.
+			</video>
+
+		</div>
+		<div class="section-benefits">
+			<h2>Three Benefits of Partnering with HireWise</h2>
+
+			<div class="benefits-item">
+				<h3><sl-icon name="stars"></sl-icon>Reduced cost & time to hire</h3>
+				Hire quickly and effectively by following the HireWise recruitment process. Tried and tested across industries, our four step hiring process will result in you hiring the right person every time; giving you time back and reducing your cost.
+			</div>
+
+			<div class="benefits-item">
+				<h3><sl-icon name="search"></sl-icon>Best in class hiring process</h3>
+				The HireWise hiring process is tried and tested. Follow our four steps (every time) and you will reap the benefits of effective recruiting. This is not rocket science but it takes time to implement. By partnering with HireWise, you can continue to focus on achieving your business goals and trust your hiring needs are in safe hands.
+			</div>
+
+			<div class="benefits-item">
+				<h3><sl-icon name="gem"></sl-icon>Hire the right candidates</h3>
+				Hiring the right person for your business can be challenging. Hiring the wrong person can be detrimental. With HireWise, you will gain a recruitment partner to work with you throughout your hiring journey, resulting in hiring the right person every time
+			</div>
+
+		</div>
+	</div>
+
+	<footer class="container">
+	<ul>
+		<li>
+			<h2>Social</h2>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.linkedin.com/company/hirewise-ie/" target="_blank">
+					<sl-icon name="linkedin" label="Linkedin"></sl-icon>
+					Linkedin
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.facebook.com/hirewisefb" target="_blank">
+					<sl-icon name="facebook" label="Facebook"></sl-icon>
+					Facebook
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.instagram.com/hirewiseig/" target="_blank">
+					<sl-icon name="instagram" label="Instagram"></sl-icon>
+					Instagram
+				</sl-button>
+			</div>
+		</li>
+		<li>
+			<h2>Contact Us</h2>
+			<div>
+				<sl-button variant="text" size="large" href="tel:0857435732">
+					<sl-icon name="telephone-fill" label="Phone"></sl-icon>
+					0857435732
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="mailto:info@hirewise.ie">
+					<sl-icon name="envelope" label="Email"></sl-icon>
+					info@hirewise.ie
+				</sl-button>
+			</div>
+		</li>
+	</ul>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="/app/assets/js/core/ajaxq.js"></script>
+<script src="/app/assets/js/core/caller.js"></script>
+<script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
+<script>const lenis=new Lenis({autoRaf:true});$(document).on("click","#nav-button",function(event){$('.menu-mobile').toggleClass('active');$('#nav-button-icon').toggleClass('fa-times');$('#nav-button-icon').toggleClass('fa-bars');$(window).scrollTop(0);});</script>
+
+	<script src="/app/assets/js/home/home-index.js"></script>
+
+	<script>
+		const target = document.getElementById('content');
+
+		const observer = new IntersectionObserver(
+			([entry]) => {
+				if (!entry.isIntersecting) {
+					$('header').addClass('out-of-view');
+				} else {
+					$('header').removeClass('out-of-view');
+				}
+			}, {
+				threshold: 0.2
+			}
+		);
+
+		observer.observe(target);
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="sl-theme-dark">
+
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="module" src="external_assets/cdn.jsdelivr.net/shoelace-autoloader.js"></script>
+<!-- <link rel="stylesheet" href="app/assets/css/shoelace.css"> -->
+
+<link rel="stylesheet" href="external_assets/cdn.jsdelivr.net/light.css"/>
+
+<link rel="stylesheet" href="app/assets/css/styles.css">
+<link rel="stylesheet" href="app/assets/css/home.css">	<title>HireWise</title>
+	<script src="external_assets/cdn.jsdelivr.net/swiper-element-bundle.min.js"></script>
+</head>
+
+<body>
+	<div id="loader">
+	<ul>
+		<li>
+			<div id="loader-ani"></div>
+		</li>
+		<li>
+			<div id="loader-msg"></div>
+		</li>
+		<li>
+			<div id="loader-progress">0%</div>
+		</li>
+	</ul>
+</div>
+<div id="blocker"></div>
+<div id="error-msg"></div>
+	<header class="out-of-view">
+	<ul class="nav">
+		<li>
+			<a href="/"><img src="app/assets/imgs/hirewise_logo_white.webp" alt="HireWise Logo"></a>
+		</li>
+		<li></li>
+		<li>
+			<ul class="menu">
+				<li class="menu-item "><a href="/about-us">About Us</a></li>
+				<li class="menu-item "><a href="/our-services">Our Services</a></li>
+				<li class="menu-item "><a href="/testimonies">Testimonies</a></li>
+				<li class="menu-item "><a href="/jobs">Jobs</a></li>
+			</ul>
+			<ul class="nav-mobile">
+				<li><button id="nav-button" aria-label="Mobile Nav Button" title="Menu"><sl-icon name="list"></sl-icon></button></li>
+			</ul>
+		</li>
+	</ul>
+</header>
+<div class="menu-mobile">
+	<ul>
+		<li class="menu-item"><a href="/">Home</a></li>
+		<li class="menu-item"><a href="/about-us">About Us</a></li>
+		<li class="menu-item"><a href="/our-services">Our Services</a></li>
+		<li class="menu-item"><a href="/testimonies">Testimonies</a></li>
+		<li class="menu-item"><a href="/jobs">Jobs</a></li>
+	</ul>
+</div>	<div class="container">
+
+		<div class="content" id="content">
+			<div class="hero-text">
+				Helping you hire better
+				and retain your best
+
+			</div>
+		</div>
+		<div class="section-intro">
+			<h1>Your strategic recruitment partner</h1>
+			<p>We have a passion for hiring the right people the right way. Every organisation is different with a variety of nuances to navigate. We offer three recruitment models; Recruitment as a Service, Contingent Recruitment and Exclusive Recruitment</p>
+
+		</div>
+		<div class="section-video">
+			<h2>Creating a healthy hiring culture</h2>
+			<video autoplay muted loop>
+				<source src="app/assets/video/video.mp4" type="video/mp4">
+				<!-- <source src="video.webm" type="video/webm"> -->
+				Your browser does not support the video tag.
+			</video>
+
+		</div>
+		<div class="section-benefits">
+			<h2>Three Benefits of Partnering with HireWise</h2>
+
+			<div class="benefits-item">
+				<h3><sl-icon name="stars"></sl-icon>Reduced cost & time to hire</h3>
+				Hire quickly and effectively by following the HireWise recruitment process. Tried and tested across industries, our four step hiring process will result in you hiring the right person every time; giving you time back and reducing your cost.
+			</div>
+
+			<div class="benefits-item">
+				<h3><sl-icon name="search"></sl-icon>Best in class hiring process</h3>
+				The HireWise hiring process is tried and tested. Follow our four steps (every time) and you will reap the benefits of effective recruiting. This is not rocket science but it takes time to implement. By partnering with HireWise, you can continue to focus on achieving your business goals and trust your hiring needs are in safe hands.
+			</div>
+
+			<div class="benefits-item">
+				<h3><sl-icon name="gem"></sl-icon>Hire the right candidates</h3>
+				Hiring the right person for your business can be challenging. Hiring the wrong person can be detrimental. With HireWise, you will gain a recruitment partner to work with you throughout your hiring journey, resulting in hiring the right person every time
+			</div>
+
+		</div>
+	</div>
+
+	<footer class="container">
+	<ul>
+		<li>
+			<h2>Social</h2>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.linkedin.com/company/hirewise-ie/" target="_blank">
+					<sl-icon name="linkedin" label="Linkedin"></sl-icon>
+					Linkedin
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.facebook.com/hirewisefb" target="_blank">
+					<sl-icon name="facebook" label="Facebook"></sl-icon>
+					Facebook
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.instagram.com/hirewiseig/" target="_blank">
+					<sl-icon name="instagram" label="Instagram"></sl-icon>
+					Instagram
+				</sl-button>
+			</div>
+		</li>
+		<li>
+			<h2>Contact Us</h2>
+			<div>
+				<sl-button variant="text" size="large" href="tel:0857435732">
+					<sl-icon name="telephone-fill" label="Phone"></sl-icon>
+					0857435732
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="mailto:info@hirewise.ie">
+					<sl-icon name="envelope" label="Email"></sl-icon>
+					info@hirewise.ie
+				</sl-button>
+			</div>
+		</li>
+	</ul>
+</footer>
+
+
+
+<script src="external_assets/code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="app/assets/js/core/ajaxq.js"></script>
+<script src="app/assets/js/core/caller.js"></script>
+<script src="external_assets/unpkg.com/lenis.min.js"></script>
+<script>const lenis=new Lenis({autoRaf:true});$(document).on("click","#nav-button",function(event){$('.menu-mobile').toggleClass('active');$('#nav-button-icon').toggleClass('fa-times');$('#nav-button-icon').toggleClass('fa-bars');$(window).scrollTop(0);});</script>
+
+	<script src="app/assets/js/home/home-index.js"></script>
+
+	<script>
+		const target = document.getElementById('content');
+
+		const observer = new IntersectionObserver(
+			([entry]) => {
+				if (!entry.isIntersecting) {
+					$('header').addClass('out-of-view');
+				} else {
+					$('header').removeClass('out-of-view');
+				}
+			}, {
+				threshold: 0.2
+			}
+		);
+
+		observer.observe(target);
+	</script>
+</body>
+
+</html>

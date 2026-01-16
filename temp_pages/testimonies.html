@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="sl-theme-dark">
+
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="/favicon.ico"/>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+<!-- <link rel="stylesheet" href="/app/assets/css/shoelace.css"> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css"/>
+
+<link rel="stylesheet" href="/app/assets/css/styles.css">
+	<title>HireWise</title>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</head>
+
+<body>
+	<div id="loader">
+	<ul>
+		<li>
+			<div id="loader-ani"></div>
+		</li>
+		<li>
+			<div id="loader-msg"></div>
+		</li>
+		<li>
+			<div id="loader-progress">0%</div>
+		</li>
+	</ul>
+</div>
+<div id="blocker"></div>
+<div id="error-msg"></div>
+	<header class="out-of-view">
+	<ul class="nav">
+		<li>
+			<a href="/"><img src="/app/assets/imgs/hirewise_logo_white.webp" alt="HireWise Logo"></a>
+		</li>
+		<li></li>
+		<li>
+			<ul class="menu">
+				<li class="menu-item "><a href="/about-us">About Us</a></li>
+				<li class="menu-item "><a href="/our-services">Our Services</a></li>
+				<li class="menu-item active"><a href="/testimonies">Testimonies</a></li>
+				<li class="menu-item "><a href="/jobs">Jobs</a></li>
+			</ul>
+			<ul class="nav-mobile">
+				<li><button id="nav-button" aria-label="Mobile Nav Button" title="Menu"><sl-icon name="list"></sl-icon></button></li>
+			</ul>
+		</li>
+	</ul>
+</header>
+<div class="menu-mobile">
+	<ul>
+		<li class="menu-item"><a href="/">Home</a></li>
+		<li class="menu-item"><a href="/about-us">About Us</a></li>
+		<li class="menu-item"><a href="/our-services">Our Services</a></li>
+		<li class="menu-item"><a href="/testimonies">Testimonies</a></li>
+		<li class="menu-item"><a href="/jobs">Jobs</a></li>
+	</ul>
+</div>	<div class="container">
+		<div class="banner">
+			<div class="text">
+				<h1>Testemonies</h1>
+			</div>
+			
+			<video class="bg" autoplay muted loop>
+				<source src="/app/assets/video/banner.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<div class="filter-banner"></div>
+		</div>
+
+		<div class="testemonies">
+			<h2>What Our Clients Say</h2>
+
+			<div class="testimonies-list">
+				
+						<ul>
+							<li><strong>Cyber Security Startup</strong></li>
+							<li>Director of HR</li>
+							<li>Our experience with HireWise has been exceptional. The team is highly responsive, hands-on, and consistently provides great value for money. Their dedication to understanding our needs and finding top-quality candidates has truly made the hiring process much easier for us.</li>
+							<li>2025-08-25</li>
+						</ul>
+						<ul>
+							<li><strong>Construction Company</strong></li>
+							<li>HR Manager</li>
+							<li>What really stood out to me about Hirewise compared to other recruitment services was their personalized approach and genuine commitment to understanding both the candidate and the employer&#039;s needs. They didn’t just focus on filling a position quickly—they took the time to ensure a strong match for the long term. The communication was always transparent and timely, which set them apart from others. Additionally, their attention to detail and ability to provide well-suited candidates made the hiring process far smoother than I’ve experienced with other agencies</li>
+							<li>2025-08-25</li>
+						</ul>
+						<ul>
+							<li><strong>SaaS Startup</strong></li>
+							<li>HR Manager</li>
+							<li>HireWise exceeded our expectations. They were able to use their expertise and deep knowledge of the Talent market, and specifically in our case the Irish Tech market to first identify our business needs, then advise on market norms and expectations and finally to find a suitable candidate.</li>
+							<li>2025-08-25</li>
+						</ul>
+						<ul>
+							<li><strong>Head of HR</strong></li>
+							<li>Financial Industry</li>
+							<li>Working with HireWise has been a game-changer for our business. From the very first interaction, their team demonstrated exceptional professionalism, expertise, and dedication, a solutions-driven mindset, and a true commitment to helping us achieve our goals.  They took the time to understand our unique challenges and provided innovative strategies that delivered measurable results. Thanks to their expertise, we’ve built a stronger, more talented team.
+
+We would recommend HireWise to any business looking for a dedicated and results-oriented partner.</li>
+							<li>2025-08-25</li>
+						</ul>			</div>
+		</div>
+	</div>
+
+	<footer class="container">
+	<ul>
+		<li>
+			<h2>Social</h2>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.linkedin.com/company/hirewise-ie/" target="_blank">
+					<sl-icon name="linkedin" label="Linkedin"></sl-icon>
+					Linkedin
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.facebook.com/hirewisefb" target="_blank">
+					<sl-icon name="facebook" label="Facebook"></sl-icon>
+					Facebook
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.instagram.com/hirewiseig/" target="_blank">
+					<sl-icon name="instagram" label="Instagram"></sl-icon>
+					Instagram
+				</sl-button>
+			</div>
+		</li>
+		<li>
+			<h2>Contact Us</h2>
+			<div>
+				<sl-button variant="text" size="large" href="tel:0857435732">
+					<sl-icon name="telephone-fill" label="Phone"></sl-icon>
+					0857435732
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="mailto:info@hirewise.ie">
+					<sl-icon name="envelope" label="Email"></sl-icon>
+					info@hirewise.ie
+				</sl-button>
+			</div>
+		</li>
+	</ul>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="/app/assets/js/core/ajaxq.js"></script>
+<script src="/app/assets/js/core/caller.js"></script>
+<script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
+<script>const lenis=new Lenis({autoRaf:true});$(document).on("click","#nav-button",function(event){$('.menu-mobile').toggleClass('active');$('#nav-button-icon').toggleClass('fa-times');$('#nav-button-icon').toggleClass('fa-bars');$(window).scrollTop(0);});</script>
+
+
+</body>
+
+</html>

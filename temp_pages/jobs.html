@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" class="sl-theme-light">
+
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="/favicon.ico"/>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+<!-- <link rel="stylesheet" href="/app/assets/css/shoelace.css"> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css"/>
+
+<link rel="stylesheet" href="/app/assets/css/styles.css">
+<link rel="stylesheet" href="/app/assets/css/jobs.css">	<title>HireWise</title>
+</head>
+
+<body>
+	<div id="loader">
+	<ul>
+		<li>
+			<div id="loader-ani"></div>
+		</li>
+		<li>
+			<div id="loader-msg"></div>
+		</li>
+		<li>
+			<div id="loader-progress">0%</div>
+		</li>
+	</ul>
+</div>
+<div id="blocker"></div>
+<div id="error-msg"></div>
+	<header class="out-of-view">
+	<ul class="nav">
+		<li>
+			<a href="/"><img src="/app/assets/imgs/hirewise_logo_white.webp" alt="HireWise Logo"></a>
+		</li>
+		<li></li>
+		<li>
+			<ul class="menu">
+				<li class="menu-item "><a href="/about-us">About Us</a></li>
+				<li class="menu-item "><a href="/our-services">Our Services</a></li>
+				<li class="menu-item "><a href="/testimonies">Testimonies</a></li>
+				<li class="menu-item active"><a href="/jobs">Jobs</a></li>
+			</ul>
+			<ul class="nav-mobile">
+				<li><button id="nav-button" aria-label="Mobile Nav Button" title="Menu"><sl-icon name="list"></sl-icon></button></li>
+			</ul>
+		</li>
+	</ul>
+</header>
+<div class="menu-mobile">
+	<ul>
+		<li class="menu-item"><a href="/">Home</a></li>
+		<li class="menu-item"><a href="/about-us">About Us</a></li>
+		<li class="menu-item"><a href="/our-services">Our Services</a></li>
+		<li class="menu-item"><a href="/testimonies">Testimonies</a></li>
+		<li class="menu-item"><a href="/jobs">Jobs</a></li>
+	</ul>
+</div>	<div class="container">
+		<div class="banner">
+			<div class="text">
+				<h1>Jobs</h1>
+			</div>
+
+			<video class="bg" autoplay muted loop>
+				<source src="/app/assets/video/banner.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<div class="filter-banner"></div>
+		</div>
+
+
+
+		
+			<h6>Construction</h6>
+			<div class="job-board">
+					<ul class="job-card">
+						<li><h4>Architectural Technologist</h4></li>
+						<li class="job-openings">Location: <strong>London SW19 </strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: £35,000 - £37,000 / year</li>
+						<li class="job-description"><p>Our Architectural Industry Sector Client who specialise in delivering design projects both commercial and Residential, are looking to attract an <strong>Architectural Technologist</strong> to join their team in South West London. The ideal candidate will have extensive experience in architectural design, project procurement and and a background in using Revit for technical design is essential....</li>
+						<li></li>
+						<li><h3>2 February 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/architectural-technologist">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+			</div>
+			<h6>Finance</h6>
+			<div class="job-board">
+					<ul class="job-card">
+						<li><h4>Financial Advisor</h4></li>
+						<li class="job-openings">Location: <strong>Dublin</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €42,000 - €50,000 / year</li>
+						<li class="job-description"><p>Our client is an independent financial planning and insurance brokerage with a strong presence in the online Protection Insurance market. The company has been in business since 1982. In recent years they have come under new ownership. Since the new ownership, the company has grown from a 2 to a 14 person team in 3 years, with the aim of adding several new members over the coming year. We pride...</li>
+						<li></li>
+						<li><h3>26 November 2025</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/financial-advisor">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Financial Accountant</h4></li>
+						<li class="job-openings">Location: <strong>Dublin 12</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €60,000 / year</li>
+						<li class="job-description"><p>Our Client privately owned Irish business providing a comprehensive range of building materials and DIY products to the construction industry and DIY trade are looking to attract a <strong>Financial Accountant</strong> for their operation.  </p></li>
+						<li></li>
+						<li><h3>19 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/financial-accountant">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+			</div>
+			<h6>Operations</h6>
+			<div class="job-board">
+					<ul class="job-card">
+						<li><h4>Project Manager</h4></li>
+						<li class="job-openings">Location: <strong>Mayo (Hybrid)</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €80,000 - €85,000 / year</li>
+						<li class="job-description"><p>Our Client a leading supplier Packaging and Labelling Solutions to the Manufacturing Sector including Pharma and Medical Device are looking for a Project Manager to join their Team based in Mayo.</p></li>
+						<li></li>
+						<li><h3>15 September 2025</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/project-manager">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Technical Buyer</h4></li>
+						<li class="job-openings">Location: <strong>Limerick</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li></li>
+						<li class="job-description"><p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">Our Client a leading provider of Maintenance, Repairs and Operations Services to the Manufacturing Industry Sector are looking to attract a </span><strong style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">Technical Buyer </strong><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">for...</li>
+						<li></li>
+						<li><h3>5 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/technical-buyer">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Inside Coordinator - Limerick</h4></li>
+						<li class="job-openings">Location: <strong>Limerick</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €40,000 - €45,000 / year</li>
+						<li class="job-description"><p><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">Our Client a leading technical specialist distributor of industrial maintenance, repair and overhaul (MRO) products and services are looking to attract an </span><strong style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">Inside Coordinator/Inventory Control </strong><span style="color: rgb(0, 0, 0);...</li>
+						<li></li>
+						<li><h3>5 January 2026</h3></li>
+						<li>
+						<sl-button href=" jobs offer inside-coordinator-limerick">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Business Automation Manager</h4></li>
+						<li class="job-openings">Location: <strong>London</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €70,000 - €80,000 / year</li>
+						<li class="job-description"><p>Our clients' Digital Resilience Platform solves for the greatest vulnerabilities across the complete attack surface. By providing comprehensive coverage of an organization’s digital footprint through best-in-class discovery and monitoring, their solution enables users to proactively uncover threats within email, domains, brand, and the network perimeter. Paired with sophisticated remediation...</li>
+						<li></li>
+						<li><h3>13 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/business-automation-manager">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+			</div>
+			<h6>Sales</h6>
+			<div class="job-board">
+					<ul class="job-card">
+						<li><h4>Business Development Manager</h4></li>
+						<li class="job-openings">Location: <strong>Galway</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li></li>
+						<li class="job-description"><p>Our Client is a leading provider of a comprehensive range of building materials and DIY products to the construction industry and DIY trade. They are looking to attract a <strong>Business Development Manager</strong> for Galway Region.</p></li>
+						<li></li>
+						<li><h3>17 September 2025</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/business-development-manager">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Sales Representative, Part time (Bristol)</h4></li>
+						<li class="job-openings">Location: <strong>Bristol</strong></li>
+						<li class="job-openings">Openings: <strong>5</strong></li>
+						<li></li>
+						<li class="job-description"><p><span style="color: rgb(35, 31, 31); background-color: transparent;">Our Client specialises in face-to-face and field sales marketing, bringing a personal touch to each campaign we undertake.</span></p><p><span style="color: rgb(35, 31, 31); background-color: transparent;"> </span></p><p><span style="color: rgb(35, 31, 31); background-color: transparent;">Founded over two decades ago by our...</li>
+						<li></li>
+						<li><h3>31 October 2025</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/sales-representative-part-time-bristol">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Sales Representative (Bristol)</h4></li>
+						<li class="job-openings">Location: <strong>Bristol</strong></li>
+						<li class="job-openings">Openings: <strong>5</strong></li>
+						<li>Salary: £31,000 - £50,000 / year</li>
+						<li class="job-description"><p>Our client is an award-winning sales and marketing company with a mission to champion some of the UK’s most vital causes.</p><p>Through professional, face-to-face fundraising, they help well-known charities raise awareness and secure essential funding.</p><p><br></p><p>They stand out for their transparent, people-first culture, offering stability, structured training, and real career growth...</li>
+						<li></li>
+						<li><h3>5 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/sales-representative-bristol">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Sales Representative (Southampton)</h4></li>
+						<li class="job-openings">Location: <strong>Southampton</strong></li>
+						<li class="job-openings">Openings: <strong>2</strong></li>
+						<li>Salary: £31,000 - £50,000 / year</li>
+						<li class="job-description"><p>Our client is an award-winning sales and marketing company with a mission to champion some of the UK’s most vital causes.</p><p>Through professional, face-to-face fundraising, they help well-known charities raise awareness and secure essential funding.</p><p> </p><p>They stand out for their transparent, people-first culture, offering stability, structured training, and real career growth...</li>
+						<li></li>
+						<li><h3>5 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/sales-representative-southampton">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>UAG - Sales Representative (Cork)</h4></li>
+						<li class="job-openings">Location: <strong>Cork</strong></li>
+						<li class="job-openings">Openings: <strong>4</strong></li>
+						<li>Salary: €31,000 - €50,000 / year</li>
+						<li class="job-description"><p>Our client is one of Ireland’s fastest-growing and best-performing sales and marketing organisations.</p><p>They represent some of Ireland’s most respected and trusted charities, raising awareness and vital funding through face-to-face engagement — both door-to-door and at event sites such as shopping centres, retail parks, and public venues.</p><p> </p><p>This is a full-time, permanent...</li>
+						<li></li>
+						<li><h3>5 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/uag-sales-representative-cork">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>UAG - Sales representative (Dublin)</h4></li>
+						<li class="job-openings">Location: <strong>Dublin</strong></li>
+						<li class="job-openings">Openings: <strong>2</strong></li>
+						<li>Salary: €31,000 - €50,000 / year</li>
+						<li class="job-description"><p><span style="background-color: transparent; color: rgb(0, 0, 0);">Our client is one of Ireland’s fastest-growing and best-performing sales and marketing organisations.</span></p><p><span style="background-color: transparent; color: rgb(0, 0, 0);">They represent some of Ireland’s most respected and trusted charities, raising awareness and vital funding through face-to-face engagement both...</li>
+						<li></li>
+						<li><h3>31 December 2025</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/uag-sales-representative-dublin">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Team Manager - Fundraising</h4></li>
+						<li class="job-openings">Location: <strong>Cork</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €55,000 / year</li>
+						<li class="job-description"><p>Our client is looking for a passionate, results-driven Team Manager to lead and inspire a high-performing face-to-face fundraising team across County Cork.</p><p>You’ll motivate and develop fundraisers who represent some of Ireland’s most respected charities across residential and private sites.</p></li>
+						<li></li>
+						<li><h3>5 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/team-manager-fundraising">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Team Manager - Fundraising</h4></li>
+						<li class="job-openings">Location: <strong>Galway</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €55,000 / year</li>
+						<li class="job-description"><p><span style="color: rgb(0, 0, 0);">Our client is looking for a passionate, results-driven Team Manager to lead and inspire a high-performing face-to-face fundraising team across the West Coast of Ireland (Mayo, Galway, Sligo, Clare).</span></p><p><span style="color: rgb(0, 0, 0);">You’ll motivate and develop fundraisers who represent some of Ireland’s most respected charities across...</li>
+						<li></li>
+						<li><h3>5 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/team-manager-fundraising-2">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Sales Administrator</h4></li>
+						<li class="job-openings">Location: <strong>Dublin</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €40,000 / year</li>
+						<li class="job-description"><p>Our client is a leading Irish life insurance broker committed to delivering tailored financial protection and life assurance solutions. Our team of financial advisors provides expert guidance to clients across Ireland, and our culture is built on integrity, client service, and compliance.</p><p><br></p><p><strong>Role Overview</strong></p><p>As a Sales &amp; Administrator, you will be the...</li>
+						<li></li>
+						<li><h3>19 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/sales-administrator">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+			</div>
+			<h6>Tech</h6>
+			<div class="job-board">
+					<ul class="job-card">
+						<li><h4>Senior Full Stack Engineer (IAM)</h4></li>
+						<li class="job-openings">Location: <strong>London</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €90,000 - €100,000 / year</li>
+						<li class="job-description"><p>Our client is a cybersecurity SaaS company on a mission to help businesses stay ahead of emerging threats. Our platform provides innovative security solutions that balance usability with robust protection.</p><p><br></p><p>They are a global organization with offices in North America, Spain, Ireland and the UK. They boast an impressive client base across all industries, including Domino’s,...</li>
+						<li></li>
+						<li><h3>5 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/senior-full-stack-engineer-iam">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Software Engineer</h4></li>
+						<li class="job-openings">Location: <strong>Budapest, Hungary </strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €30,000 - €40,000 / year</li>
+						<li class="job-description"><p>Our client is building the future of intelligent financial infrastructure — transforming how modern businesses handle Agent and AI payments with secure, scalable, and user-friendly technology. Backed by strong early funding, we’re on a mission to make digital payments smarter, faster, and more transparent.</p><p><br></p><p>We’re looking for a Software Engineer who’s passionate about...</li>
+						<li></li>
+						<li><h3>12 January 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/software-engineer-2">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Senior Database Administrator</h4></li>
+						<li class="job-openings">Location: <strong>Dublin</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €90,000 - €100,000 / year</li>
+						<li class="job-description"><p>Our Client a global payments provider, offers a range of cost-effective and efficient end-to-end payment solutions across the online gaming, travel, Forex and eCommerce sectors. They are looking to attract a <strong>Senior Database Administrator with exceptional experience in PostgreSQL and enterprise-scale database architecture for their business.</strong></p><p> </p></li>
+						<li></li>
+						<li><h3>2 February 2026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/senior-database-administrator">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+					<ul class="job-card">
+						<li><h4>Technology Security Manager</h4></li>
+						<li class="job-openings">Location: <strong>Newbridge, Co Kildare</strong></li>
+						<li class="job-openings">Openings: <strong>1</strong></li>
+						<li>Salary: €115,000 / year</li>
+						<li class="job-description"><p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">Our Energy Sector Client is seeking an experienced </span><strong style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">Technology Security Manager</strong><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> to lead and manage the Technology Security function. The role will be...</li>
+						<li></li>
+						<li><h3>2 February 0026</h3></li>
+						<li>
+						<sl-button href="/jobs/offer/technology-security-manager">
+						Open
+						</sl-button>
+						</li>
+					</ul>
+			</div>
+	</div>
+
+	<footer class="container">
+	<ul>
+		<li>
+			<h2>Social</h2>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.linkedin.com/company/hirewise-ie/" target="_blank">
+					<sl-icon name="linkedin" label="Linkedin"></sl-icon>
+					Linkedin
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.facebook.com/hirewisefb" target="_blank">
+					<sl-icon name="facebook" label="Facebook"></sl-icon>
+					Facebook
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="https://www.instagram.com/hirewiseig/" target="_blank">
+					<sl-icon name="instagram" label="Instagram"></sl-icon>
+					Instagram
+				</sl-button>
+			</div>
+		</li>
+		<li>
+			<h2>Contact Us</h2>
+			<div>
+				<sl-button variant="text" size="large" href="tel:0857435732">
+					<sl-icon name="telephone-fill" label="Phone"></sl-icon>
+					0857435732
+				</sl-button>
+			</div>
+			<div>
+				<sl-button variant="text" size="large" href="mailto:info@hirewise.ie">
+					<sl-icon name="envelope" label="Email"></sl-icon>
+					info@hirewise.ie
+				</sl-button>
+			</div>
+		</li>
+	</ul>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="/app/assets/js/core/ajaxq.js"></script>
+<script src="/app/assets/js/core/caller.js"></script>
+<script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
+<script>const lenis=new Lenis({autoRaf:true});$(document).on("click","#nav-button",function(event){$('.menu-mobile').toggleClass('active');$('#nav-button-icon').toggleClass('fa-times');$('#nav-button-icon').toggleClass('fa-bars');$(window).scrollTop(0);});</script>
+
+
+</body>
+
+</html>
