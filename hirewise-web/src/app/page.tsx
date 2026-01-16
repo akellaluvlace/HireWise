@@ -52,7 +52,7 @@ export default function Home() {
             <span className="text-xs font-mono tracking-widest text-brand-muted uppercase">Recruitment 2.0</span>
           </div>
 
-          <h1 className="text-7xl md:text-[10rem] font-bold leading-[0.85] tracking-tighter text-brand-dark mb-12">
+          <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold leading-[0.9] tracking-tighter text-brand-dark mb-12">
             <span className="block" data-aos="fade-up" data-aos-delay="100">HELPING YOU</span>
             <span className="block text-brand-muted tracking-normal" data-aos="fade-up" data-aos-delay="200">HIRE BETTER</span>
             <div className="flex items-center gap-6" data-aos="fade-up" data-aos-delay="300">
@@ -107,7 +107,7 @@ export default function Home() {
       {/* 4. Intro Section: Minimal & Bold */}
       <section className="py-32 px-6 md:px-12 max-w-[1920px] mx-auto grid md:grid-cols-12 gap-16 items-start">
          <div className="md:col-span-5" data-aos="fade-right">
-            <h2 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight text-brand-dark">
+            <h2 className="text-3xl md:text-6xl font-bold leading-tight tracking-tight text-brand-dark">
                 Your strategic <br/>
                 <span className="text-brand-primary">recruitment partner.</span>
             </h2>
