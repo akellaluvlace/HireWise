@@ -359,7 +359,7 @@ function Dashboard({ onOpenChapter, role }: { onOpenChapter: (c: Chapter) => voi
                 </p>
             </div>
             <div className="md:mt-auto flex justify-end opacity-20 group-hover:opacity-100 transition-all group-hover:translate-x-2">
-              <ChevronRight className="text-slate-900" size={24} className="md:w-8 md:h-8" />
+              <ChevronRight size={24} className="text-slate-900 md:w-8 md:h-8" />
             </div>
           </button>
         ))}
